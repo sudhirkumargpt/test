@@ -2,7 +2,6 @@
   "name": "angularjs-lazy-loading-with-requirejs",
   "version": "0.0.1",
   "description": "A demonstration of lazy loading in AngularJS using Asynchronous Module Definitions with RequireJS syntax using Curl.",
-  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
