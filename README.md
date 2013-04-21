@@ -3,7 +3,7 @@ angularjs-lazy-loading-with-requirejs
 A demonstration of lazy loading in AngularJS using Asynchronous Module Definitions with RequireJS syntax using Curl.
 
 ## How it works
-Simple specify your routes along with its lazy dependencies to app/appRoutes.js 
+Simple specify your routes along with its lazy dependencies to `app/appRoutes.js` 
 
 ## How to run the demo
 
