@@ -4,7 +4,7 @@ A demonstration of lazy loading in [AngularJS](http://angularjs.org/) using [Asy
 This sample application was created to accompany the blog post entitled '[Lazy Loading In AngularJS](http://ify.io/entry/172/lazy-loading-in-angularjs/)'.
 
 ## How it works
-Simple specify your routes along with its lazy dependencies in `app/appRoutes.js` 
+Simple specify your routes along with its lazy dependencies in `app/scripts/appRoutes.js` 
 
 ## How to run the demo
 
