@@ -8,7 +8,7 @@ Simple specify your routes along with its lazy dependencies in `app/scripts/appR
 
 ## How to run the demo
 
-Either serve this repo up with your web server or
+Either serve the `app` folder of this repo up with your web server or
 
 * Install node.js
 * Run `npm install` from within the root project directory to install relevant dependencies
