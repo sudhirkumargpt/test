@@ -4,13 +4,16 @@ define([], function()
     {
         var definition =
         {
-            resolver: ['$q', function($q)
+            resolver: ['$q','$rootScope', function($q, $rootScope)
             {
                 var deferred = $q.defer();
 
                 require(dependencies, function()
                 {
-                    deferred.resolve();
+                    $rootScope.$apply(function()
+                    {
+                        deferred.resolve();
+                    });
                 });
 
                 return deferred.promise;
