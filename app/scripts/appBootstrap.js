@@ -1,6 +1,5 @@
-curl({
+require.config({
     baseUrl: '/scripts',
-    apiName: 'require',
     paths: {}
 });
 

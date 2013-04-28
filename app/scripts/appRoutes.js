@@ -4,20 +4,20 @@ define([], function()
         defaultRoutePath: '/',
         routes: {
             '/': {
-                templateUrl: 'views/home.html',
+                templateUrl: '/views/home.html',
                 dependencies: [
                     'controllers/HomeViewController'
                 ]
             },
-            '/about': {
-                templateUrl: 'views/about.html',
+            '/about/:person': {
+                templateUrl: '/views/about.html',
                 dependencies: [
                     'controllers/AboutViewController',
                     'directives/app-color'
                 ]
             },
             '/contact': {
-                templateUrl: 'views/contact.html',
+                templateUrl: '/views/contact.html',
                 dependencies: [
                     'controllers/ContactViewController'
                 ]
