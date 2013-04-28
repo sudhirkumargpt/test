@@ -1,6 +1,6 @@
 angularjs-lazy-loading-with-requirejs
 =====================================
-A demonstration of lazy loading in [AngularJS](http://angularjs.org/) using [Asynchronous Module Definitions (AMD)](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) with [RequireJS](http://requirejs.org/) syntax using [Curl](https://github.com/cujojs/curl).
+A demonstration of lazy loading in [AngularJS](http://angularjs.org/) using [Asynchronous Module Definitions (AMD)](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) with [RequireJS](http://requirejs.org/).
 This sample application was created to accompany the blog post entitled '[Lazy Loading In AngularJS](http://ify.io/entry/172/lazy-loading-in-angularjs/)'.
 
 ## How it works
