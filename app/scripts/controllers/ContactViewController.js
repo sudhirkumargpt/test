@@ -1,6 +1,6 @@
-define(['appModule'], function(app)
+define(['../app'], function(app)
 {
-    app.lazy.controller('ContactViewController',
+    app.controller('ContactViewController',
     [
         '$scope',
 

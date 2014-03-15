@@ -6,7 +6,7 @@ require.config({
 require
 (
     [
-        'appModule'
+        'app'
     ],
     function(app)
     {

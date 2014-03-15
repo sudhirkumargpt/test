@@ -1,6 +1,6 @@
-define(['appModule'], function(app)
+define(['../app'], function(app)
 {
-    app.lazy.directive('appColor',
+    app.directive('appColor',
     [
         function()
         {

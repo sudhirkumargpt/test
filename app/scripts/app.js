@@ -1,6 +1,6 @@
-define(['appRoutes','services/dependencyResolverFor'], function(config, dependencyResolverFor)
+define(['routes','services/dependencyResolverFor'], function(config, dependencyResolverFor)
 {
-    var app = angular.module('app', []);
+    var app = angular.module('app', ['ngRoute']);
 
     app.config(
     [
@@ -13,14 +13,12 @@ define(['appRoutes','services/dependencyResolverFor'], function(config, dependen
 
         function($routeProvider, $locationProvider, $controllerProvider, $compileProvider, $filterProvider, $provide)
         {
-            app.lazy =
-            {
-                controller : $controllerProvider.register,
-                directive  : $compileProvider.directive,
-                filter     : $filterProvider.register,
-                factory    : $provide.factory,
-                service    : $provide.service
-            };
+	        app.controller = $controllerProvider.register;
+	        app.controller = $controllerProvider.register,
+	        app.directive  = $compileProvider.directive,
+	        app.filter     = $filterProvider.register,
+	        app.factory    = $provide.factory,
+	        app.service    = $provide.service
 
             $locationProvider.html5Mode(true);
 
