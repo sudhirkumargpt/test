@@ -14,11 +14,10 @@ define(['routes','services/dependencyResolverFor'], function(config, dependencyR
         function($routeProvider, $locationProvider, $controllerProvider, $compileProvider, $filterProvider, $provide)
         {
 	        app.controller = $controllerProvider.register;
-	        app.controller = $controllerProvider.register,
-	        app.directive  = $compileProvider.directive,
-	        app.filter     = $filterProvider.register,
-	        app.factory    = $provide.factory,
-	        app.service    = $provide.service
+	        app.directive  = $compileProvider.directive;
+	        app.filter     = $filterProvider.register;
+	        app.factory    = $provide.factory;
+	        app.service    = $provide.service;
 
             $locationProvider.html5Mode(true);
 
