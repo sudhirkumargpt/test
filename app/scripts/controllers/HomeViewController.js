@@ -1,6 +1,6 @@
 define(['app'], function(app)
 {
-    app.controller('HomeViewController',
+	app.controller('HomeViewController',
     [
         '$scope',
 

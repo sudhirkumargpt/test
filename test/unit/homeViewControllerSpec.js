@@ -1,5 +1,10 @@
 'use strict';
 
+module('app', function(app)
+{
+	console.log(app)
+});
+
 define(['controllers/HomeViewController'], function(app)
 {
 	describe("The 'HomeViewController'", function()
